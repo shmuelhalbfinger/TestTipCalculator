@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
+    <TextView
         android:id="@+id/twentyfivePercentTipValue"
         android:layout_width="62dp"
         android:layout_height="50dp"
@@ -71,7 +71,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonCompute" />
 
-    <EditText
+    <TextView
         android:id="@+id/fifteenPercentTipValue"
         android:layout_width="62dp"
         android:layout_height="50dp"
@@ -82,7 +82,7 @@
         app:layout_constraintEnd_toStartOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-    <EditText
+    <TextView
         android:id="@+id/twentyPercentTipValue"
         android:layout_width="62dp"
         android:layout_height="50dp"
@@ -93,7 +93,7 @@
         app:layout_constraintEnd_toStartOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-    <EditText
+    <TextView
         android:id="@+id/fifteenPercentTotalValue"
         android:layout_width="62dp"
         android:layout_height="50dp"
@@ -104,7 +104,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView10" />
 
-    <EditText
+    <TextView
         android:id="@+id/twentyPercentTotalValue"
         android:layout_width="62dp"
         android:layout_height="50dp"
@@ -115,7 +115,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView11" />
 
-    <EditText
+    <TextView
         android:id="@+id/twentyfivePercentTotalValue"
         android:layout_width="62dp"
         android:layout_height="50dp"
